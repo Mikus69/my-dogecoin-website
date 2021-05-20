@@ -1,0 +1,31 @@
+.landing {
+  display: flex;
+  margin-top: 6.25rem;
+  background-color: #f0e4b1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 5rem;
+}
+
+.dogeLogo {
+  height: 20rem;
+  width: 18rem;
+}
+
+.landingButtonLeft {
+  color: #f9eed9;
+  background: #1e4151;
+  margin: 1rem;
+}
+
+.landingButtonRight {
+  color: #1e4151;
+  background-color: transparent;
+}
+
+p {
+  text-align: center;
+  color: #5a3a1a;
+  max-width: 90vw;
+}

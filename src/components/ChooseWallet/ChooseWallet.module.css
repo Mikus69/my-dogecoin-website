@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9eed9;
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.android {
+  width: 70%;
+}

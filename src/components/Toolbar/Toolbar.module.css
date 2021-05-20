@@ -1,0 +1,50 @@
+.toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #987f50;
+  height: 6.25rem;
+  z-index: 100;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.toolbarNavigation {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.toolbarNavigationItems ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.toolbarNavigationItems li {
+  padding: 0 0.5rem;
+  color: #f9eed9;
+  size: 1rem;
+}
+
+@media (min-width: 770px) {
+  .drawerToggleButton {
+    display: none;
+  }
+}
+
+@media (max-width: 769px) {
+  .toolbarNavigationItems {
+    display: none;
+  }
+}
