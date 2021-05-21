@@ -6,6 +6,8 @@ import Button from "../UI/Button/Button";
 import ChooseWallet from "../ChooseWallet/ChooseWallet";
 import What from "../What/What";
 import How from "../How/How";
+import GetWallet from "../GetWallet/GetWallet";
+import Footer from "../Footer/Footer";
 
 const LandingPage = () => {
   return (
@@ -26,6 +28,8 @@ const LandingPage = () => {
       <ChooseWallet />
       <What />
       <How />
+      <GetWallet />
+      <Footer />
     </div>
   );
 };

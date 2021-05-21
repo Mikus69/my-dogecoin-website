@@ -1,0 +1,12 @@
+.container {
+  background-color: #1e4151;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragraph {
+  color: #f9eed9;
+  text-align: center;
+}

@@ -34,7 +34,6 @@ const How = () => {
           team dogefolders, bring in your computing power, help to find cures
           for diseases and receive some Doges for your efforts.
         </p>
-        <p>dasdasd</p>
       </div>
     </div>
   );
