@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 50vw;
+  max-width: 7rem;
+  border-radius: 1rem;
+  height: 0.2rem;
+  background-color: #1e4151;
+  margin: 1rem;
+  border: none;
+}
+
+.arrow {
+  height: 1.25rem;
+  width: 1.25rem;
+  fill: #1e4151;
+}

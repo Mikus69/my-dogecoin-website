@@ -1,7 +1,12 @@
-h1 {
+h1,
+h2,
+h3 {
   text-align: center;
+  color: #1e4151;
+  max-width: 85vw;
 }
 
-h2 {
-  text-align: center;
+p {
+  line-height: 1.5;
+  color: #1e4151;
 }

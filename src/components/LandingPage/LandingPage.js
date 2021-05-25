@@ -8,6 +8,7 @@ import What from "../What/What";
 import How from "../How/How";
 import GetWallet from "../GetWallet/GetWallet";
 import Footer from "../Footer/Footer";
+import { ReactComponent as Github } from "../../images/SVG/github.svg";
 
 const LandingPage = () => {
   return (
@@ -22,7 +23,9 @@ const LandingPage = () => {
         </p>
         <div className={classes.landingButtons}>
           <Button className={classes.landingButtonLeft}>Get Started Now</Button>
-          <Button className={classes.landingButtonRight}>Source</Button>
+          <Button className={classes.landingButtonRight}>
+            <Github className={classes.icon} /> Source
+          </Button>
         </div>
       </div>
       <ChooseWallet />

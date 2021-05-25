@@ -4,19 +4,80 @@
   justify-content: center;
   align-items: center;
   background-color: #f9eed9;
+  padding: 2rem 0 2rem 0;
 }
 
 .logo {
-  height: 150px;
-  width: 150px;
+  height: 10rem;
+  width: 10rem;
+  padding: 1rem;
 }
 
-.buttonContainer {
+.buttonItems {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
 .android {
-  width: 70%;
+  width: 10rem;
+  height: auto;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: none;
+}
+
+.buttonItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  padding-right: 0.5rem;
+  fill: #fff;
+}
+
+.windows {
+  background-color: #128193;
+}
+
+.linux {
+  background-color: #186429;
+}
+
+.apple {
+  background-color: #1e4151;
+  max-width: 6.75rem;
+}
+
+.dogeContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 1050px) {
+  .mainDogeContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dogeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 12rem 2rem 12rem;
+  }
 }

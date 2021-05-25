@@ -4,13 +4,13 @@
   left: 0;
   width: 100%;
   background-color: #987f50;
-  height: 6.25rem;
+  height: 4.25rem;
   z-index: 100;
 }
 
 .logo {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 }
 
 .spacer {
