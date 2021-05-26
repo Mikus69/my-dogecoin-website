@@ -19,6 +19,11 @@
   color: #1e4151;
 }
 
+.button:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
 .paragraph {
   text-align: left;
   line-height: 1.5;

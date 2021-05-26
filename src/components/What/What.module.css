@@ -8,8 +8,8 @@
 }
 
 .video {
-  width: auto;
-  height: auto;
+  width: 80vw;
+  height: 45vw;
   border: none;
 }
 
@@ -27,9 +27,19 @@
   fill: #fff;
 }
 
+.blueButton:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
 .transparentButton {
   fill: #1e4151;
   background-color: transparent;
+}
+
+.transparentButton:hover {
+  background-color: grey;
+  cursor: pointer;
 }
 
 .icon {

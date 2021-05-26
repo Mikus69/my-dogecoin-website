@@ -24,6 +24,10 @@
   height: auto;
 }
 
+.android:hover {
+  cursor: pointer;
+}
+
 .buttonContainer {
   display: flex;
   flex-direction: row;
@@ -50,13 +54,28 @@
   background-color: #128193;
 }
 
+.windows:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
 .linux {
   background-color: #186429;
+}
+
+.linux:hover {
+  background-color: green;
+  cursor: pointer;
 }
 
 .apple {
   background-color: #1e4151;
   max-width: 6.75rem;
+}
+
+.apple:hover {
+  background-color: grey;
+  cursor: pointer;
 }
 
 .dogeContainer {

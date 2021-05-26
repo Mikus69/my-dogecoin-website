@@ -12,6 +12,11 @@
   color: #f9eed9;
 }
 
+.button:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
 .circleContainer {
   display: flex;
   flex-direction: row;

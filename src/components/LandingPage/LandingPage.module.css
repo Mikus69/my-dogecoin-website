@@ -26,6 +26,11 @@
   margin: 1rem;
 }
 
+.landingButtonLeft:hover {
+  background-color: #438daf;
+  border-color: #438daf;
+}
+
 .landingButtonRight {
   color: #1e4151;
   background-color: transparent;
@@ -33,6 +38,10 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.landingButtonRight:hover {
+  background-color: #438daf;
 }
 
 p {
